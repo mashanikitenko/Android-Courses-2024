@@ -126,7 +126,7 @@ class MainActivity : AppCompatActivity() {
             type = "application/octet-stream"
             putExtra(Intent.EXTRA_EMAIL, arrayOf("hodovychenko@op.edu.ua"))
             putExtra(Intent.EXTRA_SUBJECT, "DigiJED [Nikitenko Mariia]")
-            putExtra(Intent.EXTRA_TEXT, "Repository link: https://github.com/libra625/AndroidWinter2024_Practice")
+            putExtra(Intent.EXTRA_TEXT, "Repository link: https://github.com/mashanikitenko/Android-Courses-2024.git")
             putExtra(Intent.EXTRA_STREAM, FileProvider.getUriForFile(this@MainActivity, "${packageName}.fileprovider", photoFile))
             addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
         }
